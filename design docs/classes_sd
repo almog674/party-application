@@ -1,0 +1,52 @@
+Server
+- Socket Server - Server Object
+- Rooms - List of Room Objects
+- Database - Database Object
+- Clients list - List of Client Objects
+
+
+1. Broadcast Message
+2. Privet Message
+3. Show People
+4. Quit
+5. Kick Player
+6. Mute Player
+7. Unmute Player
+8. Change DJ
+9. Open Room
+10. Close Room
+11. Change Song
+12. Pause/Play
+
+Client
+- Server - Server Object
+
+
+Person
+- name - str
+- Socket Client - 
+- Database - Database Object
+- Music Player - Music Player Object
+
+DJ
+- Spotify Client - Spotify Object
+
+User
+
+Room
+- room name - str
+- room code - int
+- DJ - DJ Object
+- users - list of User Objects
+- Chat - Chat Object
+
+
+Chat
+- Room
+- UI
+
+Message
+- sender name
+- message code
+- date
+
